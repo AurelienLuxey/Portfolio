@@ -1,0 +1,13 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+
+footer img{
+  width: 2vw;
+  margin: 0;
+  padding: 0;
+
+}

@@ -1,0 +1,93 @@
+@font-face {
+  font-family: Smoosch;
+  src: url(Data/CodePro.ttf);
+}
+
+*{
+  font-family: Smoosch;
+  font-size: large;
+  
+}
+
+.scroller{
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+}
+
+body {
+    margin: 0;
+    padding : 0; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+
+
+
+.aside{
+  flex : 10;
+  background: #6190E8; 
+  background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  min-height: 100vh;
+  color: white;
+}
+
+h1{
+  font-size: xxx-large;
+  text-align: center;
+}
+
+h2{
+  font-size : xxx-large; 
+  color : red; 
+}
+
+content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1vw;
+
+  align-items: center;
+  text-align: center;
+}
+
+.partieTexte2{
+  border-style: solid;
+  font-size: large;
+  color : white;
+
+  max-width: 80%;
+
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  padding: 1vw;
+  margin: 3vw;
+}
+
+.partieTexte2 h3 {
+  font-size : xx-large; 
+  color : green;
+  padding : 1vh;
+  margin : 1vh; 
+}
+
+.imgTexte{
+  width : 90%;
+}
+
+.imgTexte2{
+  height : 70%;
+}
+
+  .iconMain{
+  width: 30vw;
+}

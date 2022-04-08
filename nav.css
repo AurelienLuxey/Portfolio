@@ -1,0 +1,112 @@
+@media screen and (min-width : 1651px) {
+  .sidebar{
+    position : sticky; 
+    top : 0;
+    flex : 1;
+    max-height: 100vh;
+    overflow : scroll; 
+    text-align: center;
+    background-color : white;
+  
+    display: flex; 
+    flex-direction : column; 
+  }
+
+  nav{
+    flex : 10;
+  }
+
+  footer{
+      flex : 1;
+  } 
+
+  .bar{
+    display: none; 
+  }
+
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+}
+
+  @media  screen and (max-width : 1650px){
+    *{
+      font-size: medium;
+    }
+
+    .sidebar{
+      display: none;
+    }
+
+    .bar{
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: #864ba2;
+      align-items: center;
+    }
+
+    .bar div{
+      margin: 1vw;
+    }
+
+    .bar a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .iconbar{
+      width: 3vw;
+      vertical-align: middle;
+    }
+
+    .iconHeaderBar{
+      width: 5vw;
+    }
+
+    .contentbar{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      background-color: white;
+      border-radius: 25px;
+    }
+
+    .contentbar .lien{
+      padding: 1vw;
+    }
+
+
+    .contentbar .lien:hover{
+      background-color: grey;
+      border-radius: 15px;
+      
+    }
+
+    .contentbar a:hover{
+      color: white;
+    }
+  }
+  
+
+  .iconHeader{
+      height : 10vh;
+  }
+
+  .iconSide{
+      height: 9vh;
+  }
+
+  .headerNav{
+    background-color: #864ba2;
+  }
+
