@@ -1,0 +1,76 @@
+.cv{
+    background: #A57E8F;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.5px );
+    -webkit-backdrop-filter: blur( 16.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    padding: 1vw;
+
+}
+
+.cv h1{
+    text-align: center;
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.cv .contact{
+    flex: 2; 
+    margin: 0.5vw;
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.5px );
+    -webkit-backdrop-filter: blur( 16.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    padding: 1vw;
+    margin-top: 1vw;
+    max-width: 50%;
+}
+
+.cv .infocontact{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 0.2vw;
+}
+
+.infocontact p:first-child{
+    flex: 0 0 30%;
+}
+.infocontact p:last-child{
+    flex: 0 0 70%;
+}
+
+@media screen and (max-width: 1100px) {
+    .info{
+        flex-direction: column;
+
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .cv .contact{
+        max-width: 90%;
+        width: 90%;
+    }
+
+    .cv .infocontact{
+        display: flex;
+        flex-flow: row wrap;
+        margin-bottom: 1vw;
+    }
+    
+    .infocontact p:first-child{
+        flex: 0 0 40%;
+    }
+    .infocontact p:last-child{
+        flex: 0 0 60%;
+    }
+}

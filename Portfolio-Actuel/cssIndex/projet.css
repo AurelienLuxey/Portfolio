@@ -1,0 +1,107 @@
+.mesProjet{
+  background: #9F8DC3;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.5px );
+    -webkit-backdrop-filter: blur( 16.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    padding: 1vw;
+
+    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  
+  .row,
+  .row > .column {
+    padding: 1vw;
+  }
+  
+  .column {
+    float: left;
+    width: 24%;
+  }
+  
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  .show {
+    display: block;
+  }
+  
+
+.content{
+    padding: 2vw;
+    background-color: #BE9CC7;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.content img{
+    max-width: 15vw;
+    max-height: 20vh;
+    overflow: hidden;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.learnMoreBtn{
+  margin-top: 1vw;
+  padding: 0.5vw;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition : 1s;
+}
+
+.learnMoreBtn:hover{
+  transition: 0.5s;
+  transform: scale(1.2);
+  background-color: #211A44;
+  border-radius: 50px;
+}
+
+h4{
+  font-size: large;
+  margin-top: 1vw;
+}
+
+.mainProjet{
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  flex-direction: column;
+}
+
+
+.mesProjet button{
+  padding: 0.5vw;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition : 1s;
+
+  
+}
+
+.mesProjet button:hover{
+  transition: 0.5s;
+  transform: scale(1.2);
+  background-color: #211A44;
+  border-radius: 50px;
+}

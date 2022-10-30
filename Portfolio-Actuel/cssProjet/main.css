@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+  padding: 1vw;
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+  
+  /* Center website */
+.main {
+    margin: auto;
+    padding: 1vw;
+    border-radius: 10px;
+    background-color: #9F8DC3;
+    flex: 5;
+  }
+
+  
+  .main h1 {
+    font-size: 50px;
+}
+
+.main h2{
+    padding: 1vw;
+}
+
+.main a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+  .show {
+    display: block;
+  }
+  
+
+.content{
+    padding: 2vw;
+    background-color: #BE9CC7;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.content img{
+    max-width: 22vw;
+    max-height: 35vh;
+    overflow: hidden;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.learnMoreBtn{
+  margin-top: 1vw;
+  padding: 0.5vw;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition : 1s;
+}
+
+.learnMoreBtn:hover{
+  transition: 0.5s;
+  transform: scale(1.2);
+  background-color: #211A44;
+  border-radius: 50px;
+}
+
+h4{
+  font-size: xx-large;
+  margin-top: 1vw;
+}
+
+@media screen and (max-width:1100px) {
+  .body{
+      flex-direction: column;
+  }
+
+  .main{
+      margin: 2vw;
+  }
+}
+
+
+
+.card {
+  padding-bottom: 1vh;
+  overflow: hidden;
+  width: 20vw;
+
+}
+.card-header img {
+  width: 100%;
+  max-height: 15%;
+  object-fit: cover;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+
+  background-color: grey;
+  color: white;
+}
+
+.tag {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.tag-teal {
+  background-color: #47bcd4;
+}
+.tag-purple {
+  background-color: #5e76bf;
+}
+.tag-pink {
+  background-color: #cd5b9f;
+}
+
+.card-body p {
+  font-size: 13px;
+  margin: 0 0 40px;
+}
+.user {
+  display: flex;
+  margin-top: auto;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.user-info h5 {
+  margin: 0;
+}
+.user-info small {
+  color: #545d7a;
+}
+
+.all{
+  border: solid black ;
+  background-color: #5e76bf;
+}

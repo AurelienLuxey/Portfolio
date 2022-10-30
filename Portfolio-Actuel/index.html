@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Aurelien LUXEY - PORTFOLIO</title>
+
+  <link rel="icon" type="image/x-icon" href="data/logoA.png">
+  
+  <link rel="stylesheet" href="nav.css" type="text/css">
+  <link rel="stylesheet" href="footer.css" type="text/css">
+
+  <link rel="stylesheet" href="cssIndex/index.css" type="text/css">
+  <link rel="stylesheet" href="cssIndex/presentation.css" type="text/css">
+  <link rel="stylesheet" href="cssIndex/cvIndex.css" type="text/css">
+  <link rel="stylesheet" href="cssIndex/animText.css" type="text/css">
+  <link rel="stylesheet" href="cssIndex/expPro.css" type="text/css">
+  <link rel="stylesheet" href="cssIndex/projet.css" type="text/css">
+  <link rel="stylesheet" href="mediaqueries.css" type="text/css"> 
+  
+
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="cssIndex/anim.js"></script>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav>
+    <div id="effect" class="spinner">
+      <img src="data/logoA.png" class="spinnerImg">
+    </div>
+    <div class="menuIcon">
+      <div class="spinner">
+        <a href="cv.html">Mon CV</a>
+      </div>
+      <div class="spinner">
+        <a href="projetPortfolio.html">Mes projets</a>
+      </div>
+      <div class="spinner">
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="presentation">
+    <h2>Aurélien LUXEY - Qui suis-je ? </h2>
+    <hr>
+    <div class="contentPres">
+      <div class="imageMoi">
+        <img src="data/Avatar.jpg" class="imgAvatar">
+      </div>
+      <div class="textePres">
+          <p class="cssanimation sequence elevateRight">Je m'appelle 
+          <span class="texteImpr">Aurélien LUXEY</span>.<br>
+          Je suis étudiant à l'Université de Bordeaux en Informatiques.<br>
+          Je suis en 2éme année de BUT Informatiques <br>
+          <span class="texteImpr">Voici mon Portfolio :</span></p>
+        
+        <ul>
+          <li><a href="#monCV">Curriculum Vitae</a></li>
+          <li><a href="#mesProjets">Mes Projets</a></li>
+          <li><a href="#monContact">Contact</a></li>
+        </ul>
+        <a href="data/SAE-2.pdf">
+          <button class="btn"><i class="fa fa-download"></i>Telecharger mon CV</button>
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="cv">
+    <h1 id="monCV">CV - Aurélien LUXEY</h1>
+    <hr>
+    <h2>Informations du contact</h2>
+
+    <div class="info">
+      <div class="contact">
+        <h3>Informations : </h3>
+        <br>
+        <div class="infocontact">
+          <p>Nom : </p>
+          <p>Aurélien LUXEY</p>
+        </div>
+
+        <div class="infocontact">
+          <p>Adresse : </p>
+          <p>29b Chemin du petit-bordeaux 33610-Canéjan</p>
+        </div>
+
+        <div class="infocontact">
+          <p>Téléphone : </p>
+          <p>06.72.53.24.56</p>
+        </div>
+
+        <div class="infocontact">
+          <p>Mail : </p>
+          <p>aurelien.luxeyy@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="contact">
+        <h3>Parcours scolaire : </h3>
+        <br>
+        <div class="infocontact">
+          <p>Ecole élémentaire : </p>
+          <p>Groupe Scolaire Jeanne d'Arc Assomption</p>
+        </div>
+
+        <div class="infocontact">
+          <p>Collège 6ème : </p>
+          <p>Collège Saint-Genès La Salle Bordeaux</p>
+        </div>
+
+        <div class="infocontact">
+          <p>Collège post 6ème : </p>
+          <p>Collège les fontaines de Monjous</p>
+        </div>
+
+        <div class="infocontact">
+          <p>Lycée : </p>
+          <p>Lycée Gustave Eiffel Bordeaux</p>
+        </div>
+
+        <div class="infocontact">
+          <p>IUT post BAC : </p>
+          <p>IUT Département Informatique de l'IUT de Bordeaux</p>
+        </div>
+
+      </div>
+
+      <div class="contact">
+        <h3>Diplômes : </h3>
+        <br>
+        <div class="infocontact">
+          <p>Brevet des collèges</p>
+        </div>
+
+        <div class="infocontact">
+          <p>Diplôme du baccalauréat</p>
+        </div>
+
+        <div class="infocontact">
+          <p>Diplôme de premiers secours</p>
+        </div>
+
+        <div class="infocontact">
+          <p>Passage du TOEIC cette année</p>
+        </div>
+
+      </div>
+
+    </div>
+    <br>
+    <h2>Mes expériences professionnelles : </h2>
+
+    <div class="expPro">
+      <div class="projet">
+        <div class="presProjet">
+          <img class="imgProjet" src="data/fablab.svg">
+          <p>
+            Fablab <br>
+            Stage de 3ème <br>
+            Février 2017
+          </p>
+        </div>
+        <div class="texteDesc">
+          <p>
+            Dans le cadre du PPT pour le baccalauréat nous devions présenter et réaliser une solution à un problème de société. 
+			Le projet était de créer un casque de rugby connecté qui avertit des chocs trop violent.
+			Réaliser une présentation détaillée de notre projet montrant sa conception, et les réponses aux cahiers des charges.
+			Coder une application mobile connectée aux casques permettant de réceptionner les informations des capteurs se situant dans le casque. 
+			Réunir le matériel nécessaire à cet effet
+        </div>
+      </div>
+    </div>
+
+
+    <h2>Mes compétences : </h2>
+
+    <div class="info">
+
+      <div class="contactSkillCode">
+        <h3>Mes compétences de code : </h3>
+        <br>
+        <div class="infocontact">
+          <p>JAVA</p>
+          <progress value="70" max="100"></progress>
+        </div>
+
+        <div class="infocontact">
+          <p>c#</p>
+          <progress value="50" max="100"></progress>
+        </div>
+        <div class="infocontact">
+          <p>HTMl</p>
+          <progress value="90" max="100"></progress>
+        </div>
+
+        <div class="infocontact">
+          <p>CSS</p>
+          <progress value="70" max="100"></progress>
+        </div>
+        <div class="infocontact">
+          <p>Python</p>
+          <progress value="40" max="100"></progress>
+        </div>
+
+        <div class="infocontact">
+          <p>JavaScript/PHP</p>
+          <progress value="50" max="100"></progress>
+        </div>
+      </div>
+
+      <div class="contactSkill">
+        <h3>Mes compétences de travail : </h3>
+        <br>
+        <div class="infocontact">
+          <p>Travail d'équipe </p>
+          <div class="test" data-progress="90" style="--progress: 320deg;"></div>
+        </div>
+
+        <div class="infocontact">
+          <p>Rigueur</p>
+          <div class="test" data-progress="70" style="--progress: 250deg;"></div>
+        </div>
+        <div class="infocontact">
+          <p>Organisé</p>
+          <div class="test" data-progress="80" style="--progress: 300deg;"></div>
+        </div>
+
+        <div class="infocontact">
+          <p>Polyvalence</p>
+          <div class="test" data-progress="75" style="--progress: 260deg;">36%</div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+  <div class="mesProjet">
+
+    <h1 id="mesProjets">Mes projets : </h1>
+    <hr>
+
+    <div class="mainProjet">
+      <div class="row">
+
+        <div class="column web">
+          <div class="content">
+            <img src="data/SAE-IMG/pong.PNG" alt="Mountains">
+            <h4>SAE 1 : Pong</h4>
+            <p>Processing</p>
+          </div>
+        </div>
+
+
+        <div class="column web">
+          <div class="content">
+            <img src="data/SAE-IMG/lowa.PNG" alt="Lights">
+            <h4>SAE 2 : Lowatem</h4>
+            <p>Java</p>
+          </div>
+        </div>
+
+
+        <div class="column poo">
+          <div class="content">
+            <img src="data/SAE-IMG/poste.png" alt="Nature">
+            <h4>SAE 3 : Installation poste</h4>
+            <p>Bash et VM</p>
+          </div>
+        </div>
+
+        <div class="column poo">
+          <div class="content">
+            <img src="data/SAE-IMG/bashPDF.png" alt="Car">
+            <h4>SAE 4 : Convertisseur pdf html</h4>
+            <p>Bash</p>
+          </div>
+        </div>
+        <div class="column web">
+          <div class="content">
+            <img src="data/SAE-IMG/sqlProjet.png" alt="Car">
+            <h4>SAE 5 : Gestion marché viticole</h4>
+            <p>SQL Base de données</p>
+          </div>
+        </div>
+
+        <div class="column backend">
+          <div class="content">
+            <img src="data/SAE-IMG/site.png" alt="Car">
+            <h4>SAE 6 : Site WEB</h4>
+            <p>HTML CSS JS</p>
+          </div>
+        </div>
+        <div class="column backend">
+          <div class="content">
+            <img src="data/nodeJs.jpg" alt="Car">
+            <h4>Man</h4>
+            <p>Java</p>
+          </div>
+        </div>
+        <div class="column poo">
+          <div class="content">
+            <img src="data/projetCSHARP.png" alt="Car">
+            <h4>Jeu de plateau</h4>
+            <p>C#</p>
+          </div>
+        </div>
+
+      </div>
+      <a class="aProjet" href="projetPortfolio.html">
+        <button class="btnMidlle">Pour en savoir plus ...</button>
+      </a>
+    </div>
+
+    <!-- END MAIN -->
+  </div>
+
+  <footer>
+    <ul class="icons">
+      <li><a href="#">
+          <ion-icon name="logo-github"></ion-icon>
+        </a></li>
+      <li><a href="#">
+          <ion-icon name="logo-gitlab"></ion-icon>
+        </a></li>
+      <li><a href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li><a href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li><a href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="projetPortfolio.html">Mes projets</a></li>
+      <li><a href="contact.html">Me contacter</a></li>
+    </ul>
+    <div class="footer-copyright">
+      <p>Copyright @ 2022 All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  </div>
+</body>
+
+</html>

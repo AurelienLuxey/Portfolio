@@ -1,0 +1,132 @@
+
+.projet{
+    background: #282525;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.5px );
+    -webkit-backdrop-filter: blur( 16.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    padding: 1vw;
+    margin-bottom: 1vw;
+
+    display: flex;
+    flex-direction: row;
+
+    color: white;
+  
+}
+
+.presProjet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    flex: 1;
+
+    background: rgb(241, 235, 235);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.5px );
+    -webkit-backdrop-filter: blur( 16.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    color: black;
+    margin-right: 1vw;
+    padding-left: 0.5vw;
+}
+
+.imgProjet{
+    width: 5vw;
+    margin-right: 1vw;
+}
+
+.texteDesc{
+    flex : 6;
+}
+
+progress{
+    width: 100%;
+}
+
+/* ---------------------------------------------------------  */
+
+.test {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: conic-gradient(blue var(--progress), gray 0deg);
+    font-size: 0;
+  }
+  
+  .test::after {
+    content: attr(data-progress) '%';
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+    border-radius: 50%;
+    background: white;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .contactSkillCode{
+    margin: 0.5vw;
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.5px );
+    -webkit-backdrop-filter: blur( 16.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    padding: 1vw;
+    margin-top: 1vw;
+    width: 80%;
+}
+
+.contactSkill{
+    margin: 0.5vw;
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.5px );
+    -webkit-backdrop-filter: blur( 16.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    padding: 1vw;
+    margin-top: 1vw;
+    max-width: 20%;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1100px) {
+    .projet{
+        flex-direction: column;
+        
+    }
+
+    .presProjet *{
+        margin: 0 auto;
+        
+    }
+
+    .presProjet{
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+    }
+    
+
+    .presProjet p {
+        text-align: center;
+    }
+
+    .contactSkill{
+        max-width: 80%;
+        flex-direction: colum;
+    }
+}

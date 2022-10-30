@@ -1,0 +1,68 @@
+.wrapper .sidebar{
+    width: 10vw;
+    height: auto;
+    padding-bottom: 1vw;
+    background: #5C5792;
+    border: solid;
+    margin-right: 1vw;
+    overflow: hidden;
+    flex : 1;
+  }
+  
+  .wrapper .sidebar h2 {
+    
+    text-transform: uppercase;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 1vw;
+  }
+
+  .wrapper .sidebar h2:hover {
+    
+    background-color: rgb(112, 112, 112);
+  }
+
+  .wrapper .sidebar h2 a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .wrapper .sidebar h2 a:hover{
+    color: white;
+  }
+  
+  
+  .btn {
+    border: none;
+    outline: none;
+    padding: 1vw;
+    background-color: #5C5792;
+    cursor: pointer;
+    width: 100%;
+    color: white;
+  }
+  
+  .btn:hover {
+    background-color: #28262C;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+   
+  .social_media img{
+    width: 30%;
+    padding: 0.5vw;
+  }
+
+
+@media screen and (max-width:1100px) {
+  .wrapper .sidebar{
+      width: 95vw;
+      margin: 0 auto;
+      margin-bottom: 3vw;
+  }
+
+}

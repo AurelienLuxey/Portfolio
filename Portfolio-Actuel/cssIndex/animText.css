@@ -1,0 +1,43 @@
+
+.textePres p {
+    overflow: hidden;
+    font-size: xx-large;
+}
+
+/*
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100%; }
+}
+*/
+
+.textPres {
+    font-size: 4.3em;
+    letter-spacing: -4px;
+    font-weight: 700;
+    color: #7e2ea0;
+    text-align: center;
+}
+
+.cssanimation, .cssanimation span {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.elevateRight { animation-name: elevateRight }
+@keyframes elevateRight {
+    from {
+        transform: translateY(100%) rotate(20deg);
+        transform-origin: left;
+    }
+    40% {
+        transform: rotate(-20deg);
+        transform-origin: left;
+    }
+    65% {
+        transform: rotate(0deg);
+        transform-origin: left;
+    }
+}
